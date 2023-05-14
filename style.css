@@ -29,6 +29,19 @@ body{
 }
 
 /* request invite button */
+.last button{
+    background: linear-gradient(to right,#31CF70 , #27b48c ,#2CBAC4 );
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    color: white ;
+    border: 0;
+}
+
+.last button:hover{
+    background: linear-gradient(to right,#3fee85 , #2ed1a3 ,#36d5e0 );
+}
+
 
 .btn{
     background: linear-gradient(to right,#31CF70 , #27b48c ,#2CBAC4 );
@@ -126,6 +139,19 @@ body{
     left: 50%;
 }
 
+/* into to Easybank */
+
+.easy{
+    width: 600px;
+    margin-left: 5%;
+}
+
+.concept{
+    background: hsla(0, 5%, 76%, 0.178);
+}
+
+/* service infomation styling */
+
 .service{
     display: flex;
     justify-content: space-evenly;
@@ -133,10 +159,6 @@ body{
     margin-top: 5%;
     width: 80%;
     margin-left: 3%;
-}
-
-.concept{
-    background: hsla(0, 5%, 76%, 0.178);
 }
 
 .easy h4{
@@ -206,10 +228,8 @@ body{
     margin-top: 5%;
 }
 
-.easy{
-    width: 600px;
-    margin-left: 5%;
-}
+
+/* service icon/image styling */
 
 .api img{
     width: 50px;
@@ -227,6 +247,8 @@ body{
     width: 50px;
 }
 
+/* article styling */
+
 .latest{
     margin-top: 10%;
 }
@@ -236,6 +258,7 @@ body{
     font-weight: 700;
 }
 
+
 .articles{
     display: flex;
     justify-content: space-evenly;
@@ -243,10 +266,14 @@ body{
     margin-top: 3%;
 }
 
+/* article image styling */
+
 .wilson img{
     width: 320px;
     border-radius: 5px;
 }
+
+/* article information styling */
 
 .wilson h6{
     font-weight: 300;
@@ -275,12 +302,16 @@ body{
     margin-left: 5%;
 }
 
+/* first image personal styling in  the article section  */
 
 .cur{
     width: 300px;
     height: 200px;
     border-radius: 5px;
 }
+
+
+/* the footer */
 
 .footer{
     background:  hsl(233, 26%, 24%);
@@ -291,6 +322,8 @@ body{
     margin-top: 8%;
 }
 
+/* footer icon styling */
+
 .icon a{
     color: #ffff;
 }
@@ -298,6 +331,9 @@ body{
 .icon a :hover{
     color: #27b48c;
 }
+
+
+/* footer infomation list styling */
 
 .info a li{
     list-style: none;
@@ -320,18 +356,7 @@ body{
     text-decoration: none;
 }
 
-.last button{
-    background: linear-gradient(to right,#31CF70 , #27b48c ,#2CBAC4 );
-    width: 130px;
-    height: 40px;
-    border-radius: 20px;
-    color: white ;
-    border: 0;
-}
-
-.last button:hover{
-    background: linear-gradient(to right,#3fee85 , #2ed1a3 ,#36d5e0 );
-}
+/* footer copyright styling */
 
 .last h4{
     font-weight: 300;
